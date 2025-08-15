@@ -91,7 +91,7 @@ async function main() {
 
     await displayAlbums()
     //get the list of all the songs
-    await getsongs("cs")
+    await getsongs("ncs")
     playMusic(songs[0], true);
 
 
@@ -177,3 +177,4 @@ next.addEventListener("click", () => {
 
 }
 main()
+
